@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose owns all theming (see ui/theme/Theme.kt); this base theme just sets the window
+         background before Compose's first frame so cold start doesn't flash white/black. -->
+    <style name="Theme.CosyTownBuilder" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:statusBarColor">@color/window_background</item>
+    </style>
+</resources>
